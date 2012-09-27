@@ -1,0 +1,440 @@
+.h2
+{
+    font-family:Georgia, Times, "Times New Roman", serif;
+}
+
+
+.content
+{
+	margin: 0 auto;
+        position: relative;
+	border: 1px solid #222255;
+        background-color: rgba(0,0,0,0.7);
+        margin-top: 100px;
+        border-radius:6px;
+        max-width: 800px;
+        min-width: 200px;
+        display: table;
+	margin-bottom: 40px;
+        
+
+}
+
+.progress
+{
+	/*margin: 0 auto;*/
+        position: fixed;
+        margin-bottom: 5px;
+	margin-left: 5px;
+        border-radius:12px;
+        width: 300px;
+        /*display: table;*/
+	left: 0px;
+	bottom: 0px;
+	z-index: 1;
+}
+
+
+.bottomdisclaimer
+{
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: x-small;
+    color: #DDDDDD;
+    z-index: 1;
+    background-color: #222222
+}
+
+
+.innercontent
+{
+    margin: 10px 10px 10px 10px;
+    max-width: 800px;
+    
+    
+}
+
+.bottomdisclaimer a, .bottomdisclaimer a:visited, bottomdisclaimer a:active
+{
+    color: #DDDDFF    
+}
+
+.login_box
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 46%;
+    height: 200px;
+
+    float:left;
+}
+
+.register_box
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 46%;
+    height: 200px;
+    border-left-width: 2px;
+    border-left-color: #c0c0c0;
+    border-left-style: ridge;
+    float:right;
+    text-align: center;
+}
+
+.login_fields
+{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.login_container
+{
+    width: 778px;
+    display:block;
+    
+}
+
+.charpick_container 
+{
+    width: 400px;
+    height: 200px;
+    display:block;
+    text-align: center;
+    
+}
+
+input{
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+    padding-right: 30px;
+}
+
+.submit {
+    background-color: #33CCFF;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #3300FF, #33CCFF);
+    background: -moz-linear-gradient(top, #3300FF, #33CCFF);
+    background: -ms-linear-gradient(top, #3300FF, #33CCFF);
+    background: -o-linear-gradient(top, #3300FF, #33CCFF);
+    background: linear-gradient(top, #3300FF, #33CCFF);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    padding: 2px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+}
+
+.submit:hover {
+    opacity:.85;
+    cursor: pointer;
+}
+
+.submit:disabled
+{
+    background: #f6f8f9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f8f9), color-stop(50%,#e5ebee), color-stop(51%,#d7dee3), color-stop(100%,#f5f7f9)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* IE10+ */
+    background: linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* W3C */
+    color: grey;
+    text-shadow: 0 -4px 0 #FFFFFF;
+
+}
+
+.submit:disabled:hover
+{
+    opacity: 1.0;
+    cursor: default;
+}
+
+.login_warning
+{
+    color: #ffffff;
+    font-weight: 800;
+    
+    
+}
+
+.error
+{
+    color: #FF0000;
+    border: 1px solid #AA2222;
+    font-size: small;
+    
+}
+
+.classrolecontainer
+{
+    margin: auto;
+    display: table;
+}
+
+.classrole
+{
+    text-align: center;
+    float: left;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    font-variant: small-caps;
+    
+}
+
+.meter-wrap{
+    border: 1px solid #070733;
+    border-radius:12px;
+}
+
+.meter-wrap, .meter-value {
+    
+    width: 300px; height: 10px;
+    background: #171717 top left no-repeat;
+    border-radius: 12px;
+}
+
+.recruitment_form ul {
+    width:750px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+}
+.recruitment_form li{
+    padding:12px;
+    padding-bottom: 20px;
+    border-color: #555555;
+    position:relative;
+}
+
+.recruitment_form label {
+    width:150px;
+    display:inline-block;
+    float:left;
+}
+
+.formelementfloater
+{
+    display:inline-block;
+}
+
+
+
+.recruitment_form textarea {
+    padding:8px; width:300px;
+}
+.recruitment_form button {
+    margin-left:156px;
+}
+
+.recruitment_form input, .recruitment_form textarea {
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 3px 5px #eee inset;
+    border-radius:2px;
+    padding-right: 30px;
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+
+.recruitment_form input:focus, .recruitment_form textarea:focus {
+    background: #fff;
+    color: #000000;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right:70px;
+    -moz-transition: padding .25s;
+    -webkit-transition: padding .25s;
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+
+.recruitment_form input:not(focus) {
+    
+    padding-right: 10px;
+    -moz-transition: padding .25s;
+    -webkit-transition: padding .25s;
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+
+.recruitment_form input:focus:invalid, .recruitment_form textarea:focus:invalid {
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+
+.recruitment_form input:required:valid, .recruitment_form textarea:required:valid {
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+
+.recruitment_form h2, .recruitment_form label {
+    font-family:Georgia, Times, "Times New Roman", serif;
+}
+
+.form_hint {
+    background: #888888;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    margin-left:24px;
+    padding: 1px 6px;
+    z-index: 999; /* hints stay above all other elements */
+    position: absolute; /* allows proper formatting if hint is two lines */
+    display: inline;
+    font-size: x-small;
+}
+
+.form_hint:before, .form_hint_shrunk:before {
+    content: "\25C0"; 
+    color:#888888;
+    position: absolute;
+    top:1px;
+    left:-6px;
+}
+
+.form_hint_shrunk {
+    background: #888888;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    margin-left:24px;
+    padding: 1px 6px;
+    z-index: 999; /* hints stay above all other elements */
+    position: relative; /* allows proper formatting if hint is two lines */
+    display: block;
+    font-size: x-small;
+    width: 200px;
+    float: right;
+}
+
+.chooser {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    cursor: pointer;
+    
+}
+
+.chooser_selected {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00FF00;
+    
+}
+
+.lbl_required{
+    
+}
+.lbl_required:before{
+    content: "*";
+    color: #FF0000;
+}
+
+.lbl_optional{
+}
+
+.noformat li
+{
+    padding:0px 0px 0px 0px;
+    border: none;
+    position: relative;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.explainspan
+{
+    font-size: 12px;
+
+}
+
+.alist li
+{
+        padding:0px 0px 0px 0px;
+    border: none;
+    position: relative;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.qq-uploader { position:inline; width: 400px; }
+
+.qq-upload-button {
+    background: rgb(181,189,200); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(181,189,200,1)), color-stop(36%,rgba(130,140,149,1)), color-stop(100%,rgba(40,52,59,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* IE10+ */
+    background: linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+
+    color: white;
+    font-weight: bold;
+    padding: 2px 2px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+    width: 100px;
+}
+.qq-upload-button-hover {
+    opacity:.85;
+    cursor: pointer;}
+.qq-upload-button-focus {outline:1px dotted black;}
+
+.qq-upload-drop-area {
+    position:absolute; top:0; left:0; width:100%; height:100%; min-height: 70px; z-index:2;
+    background:#FF9797; text-align:center; 
+}
+.qq-upload-drop-area span {
+    #display:block; position:absolute; top: 50%; width:100%; margin-top:-8px; font-size:16px;
+}
+.qq-upload-drop-area-active {background:#FF7171;}
+
+.qq-upload-list {margin:15px 35px; padding:0; list-style:disc;}
+.qq-upload-list li { margin:0; padding:0; line-height:15px; font-size:12px;}
+.qq-upload-file, .qq-upload-spinner, .qq-upload-size, .qq-upload-cancel, .qq-upload-failed-text {
+    margin-right: 7px;
+}
+
+.qq-upload-file {}
+.qq-upload-spinner {display:inline-block; background: url("loading.gif"); width:15px; height:15px; vertical-align:text-bottom;}
+.qq-upload-size,.qq-upload-cancel {font-size:11px;}
+
+.qq-upload-failed-text {display:none;}
+.qq-upload-fail .qq-upload-failed-text {display:inline;}
+
+.recruitmentlist
+{
+}
+
+.recruitmentlist li
+{
+    margin-bottom: 40px;
+}
+
+.recruitmentlist strong
+{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
